@@ -1,7 +1,11 @@
 #include <sys/types.h>
 #include <stdio.h>
 #include <string.h>
+<<<<<<< HEAD
 /****eto neshoto ot men*/
+=======
+//
+>>>>>>> fd826bf11249bf3d9e3b43a75ab1d39d16afee2f
 void setbit(uint32_t *i, int n, int val) {
 	uint32_t mask = 1u << n;
 	
@@ -46,6 +50,8 @@ int getbool(uint32_t *i, int n) {
 } while (0)
 
 int main(void) {
+<<<<<<< HEAD
+=======
 
 	uint32_t boolean[4];
 	int j, k;
@@ -67,6 +73,18 @@ int main(void) {
 <<<<<<< HEAD
 =======
 
+<<<<<<< HEAD
+>>>>>>> 3b49501a63be8e845a4e26e2a0f31dc9c5a85ed4
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/*ko stana tuka */
+
+=======
+>>>>>>> 3b49501a63be8e845a4e26e2a0f31dc9c5a85ed4
+>>>>>>> 822aed8efe766b96af4895f92170ec328df78804
+>>>>>>> 6009613245e3029142108e96e47e29b9ca71f46f
 /*
 	int32_t i, k;
 	int j;
