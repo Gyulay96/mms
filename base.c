@@ -77,3 +77,14 @@ int main(void) {
 
 /* ne znam kakvo se sluchva*/
 
+void convert2(int num, int base) {
+	int mod = num % base;
+	
+	if ((base < 2) || (base > 16)) return;
+	if (!num) return;
+	convert(num / base, base);
+	printf("%c", digits[mod]);
+	
+	return;
+}
+
