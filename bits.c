@@ -64,6 +64,25 @@ int main(void) {
 		k = GETBOOL(uint32_t, boolean, j);
 		printf("%d\t%d\t%d\n", j, getbool(boolean, j), k);
 	}
+<<<<<<< HEAD
+=======
+
+/*
+	int32_t i, k;
+	int j;
+	
+	for (i = -127; i <= 0; i++) {
+		printf("%d\t", i);
+		for (j = 31; j >= 0; j--)
+			printf("%d", getbool((uint32_t *)&i, j));
+		k = i >> 4;
+		printf("\t%d\t", k);
+		for (j = 31; j >= 0; j--)
+			printf("%d", getbool((uint32_t *)&k, j));
+		printf("\n");
+	}
+*/
+>>>>>>> 3b49501a63be8e845a4e26e2a0f31dc9c5a85ed4
 	
 	printf("%x\n", getbits(0xf00f1000u, 12, 19));
 	return 0;
