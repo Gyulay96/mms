@@ -1,1 +1,0 @@
-ko staa pichove?
