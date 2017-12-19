@@ -75,3 +75,5 @@ int main(void) {
 	return 0;
 }
 
+/* ne znam kakvo se sluchva*/
+
