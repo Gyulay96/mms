@@ -2,10 +2,14 @@
 #include <stdio.h>
 #include <string.h>
 <<<<<<< HEAD
+<<<<<<< HEAD
 /****eto neshoto ot men*/
 =======
 //
 >>>>>>> fd826bf11249bf3d9e3b43a75ab1d39d16afee2f
+=======
+/****eto neshoto ot men w w w */
+>>>>>>> Kushlev
 void setbit(uint32_t *i, int n, int val) {
 	uint32_t mask = 1u << n;
 	
