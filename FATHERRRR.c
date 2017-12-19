@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h
+I AM YOUR FATHERRRRRRR
 
 static const char digits[16] = {
 	'0', '1', '2', '3', '4', '5', '6', '7',
@@ -74,4 +75,19 @@ int main(void) {
 	
 	return 0;
 }
+
+/* ne znam kakvo se sluchva*/
+
+void convert2(int num, int base) {
+	int mod = num % base;
+	
+	if ((base < 2) || (base > 16)) return;
+	if (!num) return;
+	convert(num / base, base);
+	printf("%c", digits[mod]);
+	
+	return;
+}
+
+
 

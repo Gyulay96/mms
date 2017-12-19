@@ -65,6 +65,14 @@ int main(void) {
 		printf("%d\t%d\t%d\n", j, getbool(boolean, j), k);
 	}
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+/*ko stana tuka */
+
+=======
+>>>>>>> 3b49501a63be8e845a4e26e2a0f31dc9c5a85ed4
+>>>>>>> 822aed8efe766b96af4895f92170ec328df78804
 /*
 	int32_t i, k;
 	int j;
