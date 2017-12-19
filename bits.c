@@ -46,6 +46,28 @@ int getbool(uint32_t *i, int n) {
 } while (0)
 
 int main(void) {
+<<<<<<< HEAD
+=======
+
+	uint32_t boolean[4];
+	int j, k;
+
+	(void)memset(boolean, 0, sizeof (boolean));
+	
+	for (j = 0; j < 128; j++)
+		setbool(boolean, j, 1);
+	
+	for (j = 2; j < 128; j++)
+		if (getbool(boolean, j))
+			for (k = 2 * j; k < 128; k += j)
+				setbool(boolean, k, 0);
+	
+	for (j = 0; j < 128; j++) {
+		k = GETBOOL(uint32_t, boolean, j);
+		printf("%d\t%d\t%d\n", j, getbool(boolean, j), k);
+	}
+
+>>>>>>> 3b49501a63be8e845a4e26e2a0f31dc9c5a85ed4
 /*
 	int32_t i, k;
 	int j;
