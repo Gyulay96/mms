@@ -46,7 +46,7 @@ int getbool(uint32_t *i, int n) {
 } while (0)
 
 int main(void) {
-/*
+
 	uint32_t boolean[4];
 	int j, k;
 
@@ -64,7 +64,9 @@ int main(void) {
 		k = GETBOOL(uint32_t, boolean, j);
 		printf("%d\t%d\t%d\n", j, getbool(boolean, j), k);
 	}
-*/
+
+/*ko stana tuka */
+
 /*
 	int32_t i, k;
 	int j;
