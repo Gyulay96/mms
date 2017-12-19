@@ -1,7 +1,7 @@
 #include <sys/types.h>
 #include <stdio.h>
 #include <string.h>
-
+/****eto neshoto ot men*/
 void setbit(uint32_t *i, int n, int val) {
 	uint32_t mask = 1u << n;
 	
